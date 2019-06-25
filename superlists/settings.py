@@ -113,3 +113,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+# Test Runner settings to enable xUnit XML outputs, for Bamboo integration
+TEST_RUNNER = 'xmlrunner.extra.djangotestrunner.XMLTestRunner'
+TEST_OUTPUT_VERBOSE = True
+TEST_OUTPUT_DESCRIPTIONS = True
+TEST_OUTPUT_DIR = 'test-reports'
