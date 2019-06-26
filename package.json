@@ -1,0 +1,24 @@
+{
+  "name": "superlists",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jodelasur-gds/superlists.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jodelasur-gds/superlists/issues"
+  },
+  "homepage": "https://github.com/jodelasur-gds/superlists#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^3.3.1"
+  }
+}

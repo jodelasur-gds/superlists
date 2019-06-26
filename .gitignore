@@ -5,3 +5,4 @@ venv/
 *.pyc
 /static
 .env
+/node_modules
